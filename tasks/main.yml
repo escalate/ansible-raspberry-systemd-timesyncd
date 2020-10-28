@@ -1,5 +1,5 @@
 - name: Configure NTP servers
-  ini_file:
+  community.general.ini_file:
     path: /etc/systemd/timesyncd.conf
     section: Time
     option: NTP
@@ -11,7 +11,7 @@
   notify: Restart systemd-timesyncd service
 
 - name: Configure FallbackNTP servers
-  ini_file:
+  community.general.ini_file:
     path: /etc/systemd/timesyncd.conf
     section: Time
     option: FallbackNTP
@@ -23,7 +23,7 @@
   notify: Restart systemd-timesyncd service
 
 - name: Start and enable systemd-timesyncd service
-  systemd:
+  ansible.builtin.systemd:
     name: systemd-timesyncd
     state: started
     enabled: true
