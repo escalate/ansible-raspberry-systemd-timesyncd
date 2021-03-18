@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: raspberry_systemd_timesyncd
+  namespace: escalate
   author: Felix Boerner
   description: Manage systemd-timesyncd on Raspberry Pi OS
   license: MIT
