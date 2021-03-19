@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: raspberry_systemd_timesyncd
+  role_name: timesyncd
   namespace: escalate
   author: Felix Boerner
   description: Manage systemd-timesyncd on Raspberry Pi OS

@@ -7,7 +7,7 @@ An Ansible role that manages [systemd-timesyncd](https://www.freedesktop.org/sof
 ## Install
 
 ```
-$ ansible-galaxy install escalate.raspberry_systemd_timesyncd
+$ ansible-galaxy install escalate.timesyncd
 ```
 
 ## Role Variables
@@ -26,7 +26,7 @@ This role relies on the following dependencies:
 ```
 - hosts: all
   roles:
-    - role: escalate.raspberry_systemd_timesyncd
+    - role: escalate.timesyncd
       tags: timesyncd
 ```
 
