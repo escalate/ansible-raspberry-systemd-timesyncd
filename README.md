@@ -1,6 +1,6 @@
-# Ansible Role: systemd-timesyncd
+[![Molecule](https://github.com/escalate/ansible-raspberry-systemd-timesyncd/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-systemd-timesyncd/actions/workflows/molecule.yml)
 
-[![CI](https://github.com/escalate/ansible-raspberry-systemd-timesyncd/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/escalate/ansible-raspberry-systemd-timesyncd/actions/workflows/ci.yml)
+# Ansible Role: systemd-timesyncd
 
 An Ansible role that manages [systemd-timesyncd](https://www.freedesktop.org/software/systemd/man/systemd-timesyncd.service.html) on Raspberry Pi OS.
 
