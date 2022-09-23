@@ -1,4 +1,4 @@
-- name: Prepare
+- name: Side Effect
   hosts: all
   tasks:
     - name: Remove blocking condition from systemd-timesyncd unit file
@@ -7,6 +7,8 @@
         section: Unit
         option: ConditionVirtualization
         state: absent
-    - name: Force systemd to reread systemd-timesync unit file
+    - name: Restart systemd-timesyncd service
       ansible.builtin.systemd:
+        name: systemd-timesyncd
+        state: restarted
         daemon_reload: true
