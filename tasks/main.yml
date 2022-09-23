@@ -16,7 +16,7 @@
     mode: 0644
   notify: Restart systemd-timesyncd service
 
-- name: Configure FallbackNTP servers
+- name: Configure Fallback NTP servers
   community.general.ini_file:
     path: /etc/systemd/timesyncd.conf
     section: Time
