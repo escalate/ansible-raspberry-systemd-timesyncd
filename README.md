@@ -2,7 +2,7 @@
 
 # Ansible Role: systemd-timesyncd
 
-An Ansible role that manages [systemd-timesyncd](https://www.freedesktop.org/software/systemd/man/systemd-timesyncd.service.html) on Raspberry Pi OS (Debian Bullseye).
+An Ansible role that manages [systemd-timesyncd](https://www.freedesktop.org/software/systemd/man/systemd-timesyncd.service.html) on Raspberry Pi OS (Debian Bookworm).
 
 ## Install
 
