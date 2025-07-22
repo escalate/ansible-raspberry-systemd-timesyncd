@@ -18,7 +18,7 @@ This role relies on the following dependencies:
 ## Installation
 
 ```
-$ ansible-galaxy role install escalate.timesyncd
+$ ansible-galaxy role install escalate.systemd_timesyncd
 ```
 
 ## Example Playbook
@@ -26,7 +26,7 @@ $ ansible-galaxy role install escalate.timesyncd
 ```
 - hosts: all
   roles:
-    - role: escalate.timesyncd
+    - role: escalate.systemd_timesyncd
       tags: timesyncd
 ```
 
